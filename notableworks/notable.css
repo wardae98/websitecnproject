@@ -1,0 +1,70 @@
+body {
+background-color: rgb(36, 35, 35);
+}
+
+main {
+    padding-top: 2rem;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.writing {
+    background: rgb(241, 239, 239);
+    width: 80%;
+    color: black;
+    margin: 1rem 0;
+    border: 4px solid black;
+    border-left: none;
+    position: relative;
+}
+
+.writing:hover,
+.writing:active {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-color: white;
+}
+
+.writing a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 2rem;
+}
+
+.story-title {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: black;
+    margin-top: 1rem;
+}
+
+.story-info {
+    padding: 1rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: black;
+    background: white;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#book-2 {
+    float: right;
+    border-right: none;
+    border-left: 4px solid black;
+    text-align: left;
+}
+
+#book-2:hover,
+#book-2:active {
+    border-left-color: white;
+}
+
+#book-3 {
+    margin-bottom: 13rem;
+}
